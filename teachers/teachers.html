@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teachers-style.css">
+    <title>Teachers</title>
+</head>
+<body>
+    <div class="main-teachers">
+        <div class="left hide" id="leftSide">
+            <span></span>
+            <ul><li><a href="../index.html">Menu</a></li></ul>
+            <ul><li><a href="../index.html">Bosh sahifa</a></li></ul>
+            <ul><li><a href="#">O`qituvchilar</a></li></ul>
+            <ul><li><a href="../pupils/pupils.html">O`quvchilar</a></li></ul>
+            <ul><li><a href="#">Xodimlar</a></li></ul>
+            <ul><li><a href="#">Fanlar</a></li></ul>
+            <ul><li><a href="#">Xonalar</a></li></ul>
+            <ul><li><a href="#">Dars jadvallari</a></li></ul>
+        </div>
+
+        <div class="table-box">
+            <h1>O`qituvchilar Jadvali</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>O`qituvchining ismi</th>
+                    <th>O`qituvchining familiyasi</th>
+                    <th>O`qituvchining fani</th>
+                    <th>O`qituvchining manzili</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td id="name1">Ahmadali</td>
+                    <td>Mamajanov</td>
+                    <td>Fizika</td>
+                    <td><button id="btnAddress1" onclick="showAddress1()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td id="name2">Mamadali</td>
+                    <td>Dadajanov</td>
+                    <td>Adabiyot</td>
+                    <td><button id="btnAddress2" onclick="showAddress2()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td id="name3">Muhammad</td>
+                    <td>Hamidov</td>
+                    <td>Matematika</td>
+                    <td><button id="btnAddress3" onclick="showAddress3()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td id="name4">Zebo</td>
+                    <td>Tillayeva</td>
+                    <td>Rus tili</td>
+                    <td><button id="btnAddress4" onclick="showAddress4()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td id="name5">Zafar</td>
+                    <td>Odilov</td>
+                    <td>Ingliz tili</td>
+                    <td><button id="btnAddress5" onclick="showAddress5()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td id="name6">Mirzafar</td>
+                    <td>Ochilov</td>
+                    <td>Ona tili</td>
+                    <td><button id="btnAddress6" onclick="showAddress6()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td id="name7">Xoshim</td>
+                    <td>Tolipov</td>
+                    <td>Jismoniy tarbiya</td>
+                    <td><button id="btnAddress7" onclick="showAddress7()">Manzil</button></td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td id="name8">A`zam</td>
+                    <td>Tursunov</td>
+                    <td>Nemis Tili</td>
+                    <td><button id="btnAddress8" onclick="showAddress8()">Manzil</button></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="input-search">
+            <input type="text" id="input-search">
+            <button id="btnSearch" onclick="showInfo()">Qidiruv</button>
+        </div>
+        </div>
+    </div>
+
+    <script src="./teachers.js"></script>
+</body>
+</html>

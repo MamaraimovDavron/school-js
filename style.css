@@ -116,4 +116,9 @@
 .main .right aside .aside-div div:hover {
   transform: scaleY(1.05);
   transition: 0.4s;
+}
+.main .right aside #table-teachers {
+  border: 1px solid green;
+  width: 300px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */

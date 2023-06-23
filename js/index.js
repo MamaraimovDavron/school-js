@@ -63,3 +63,13 @@ const darkMoonDbl = () => {
     
     document.getElementById('leftSide').style.background = 'linear-gradient(#000428,#004e92)';
 }
+
+let tableTeachers = document.getElementById('table-teachers');
+
+const btnTeachers = document.getElementById('dark-a1');
+
+const clickTeachers = () => {
+    // tableTeachers.style.background = 'red';
+    // console.log('working');
+    tableTeachers.style.border = 'none';
+}
