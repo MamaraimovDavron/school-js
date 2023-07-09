@@ -91,4 +91,35 @@
 }
 .main-teachers .table-box table tbody tr td button:hover {
   background-color: rgb(155, 21, 21);
+}
+.main-teachers .input-search {
+  margin: 20px auto;
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 5px;
+}
+.main-teachers .input-search #input-search {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.main-teachers .input-search #btnSearch {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  background-color: #004e92;
+  color: white;
+}
+.main-teachers .input-search #btnSearch:hover {
+  background-color: #032f56;
+  transition: 0.3s;
 }/*# sourceMappingURL=pupils-style.css.map */

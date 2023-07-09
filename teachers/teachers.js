@@ -54,12 +54,14 @@ const showInfo = () => {
         showAddress8();
     }
 
-    else{
-        alert('Ma`lumot no`to`g`ri kiritildi!')
-    }
+    // else{
+    //     showTrue();
+    // }
 }
 
-
+// const showTrue = () => {
+//     alert('Ma`lumot noto`g`ri kiritildi!');
+// }
 
 const showAddress1 = () => {
     alert('Toshkent viloyati, Angren shahar, Uzumzor ko`chasi 13-uy');
