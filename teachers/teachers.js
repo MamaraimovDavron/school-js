@@ -7,6 +7,8 @@ const btnAddress6 = document.getElementById('btnAddress6');
 const btnAddress7 = document.getElementById('btnAddress7');
 const btnAddress8 = document.getElementById('btnAddress8');
 
+const trOne = document.getElementById("tr1");
+
 let pupilName1 = document.getElementById('name1');
 let pupilName2 = document.getElementById('name2');
 let pupilName3 = document.getElementById('name3');
@@ -20,17 +22,50 @@ let inputSearch = document.getElementById('input-search');
 const btnSearch = document.getElementById('btnSearch');
 
 const showInfo = () => {
-    for(let i = 0; i <= 8; i++){
-        // if(inputSearch.value === document.getElementById('name' + [i])){
-        //     console.log(true);
-        // }
-    console.log(document.getElementById('name' + [i]).children);
-
+    if(inputSearch.value.toLowerCase() == pupilName1.innerHTML.toLowerCase()){
+        showAddress1();
     }
 
+    if(inputSearch.value.toLowerCase() == pupilName2.innerHTML.toLowerCase()){
+        showAddress2();
+    }
+
+    if(inputSearch.value.toLowerCase() == pupilName3.innerHTML.toLowerCase()){
+        showAddress3();
+    }
+
+    if(inputSearch.value.toLowerCase() == pupilName4.innerHTML.toLowerCase()){
+        showAddress4();
+    }
+
+    if(inputSearch.value.toLowerCase() == pupilName5.innerHTML.toLowerCase()){
+        showAddress5();
+    }
+
+    if(inputSearch.value.toLowerCase() == pupilName6.innerHTML.toLowerCase()){
+        showAddress6();
+    }
+
+    if(inputSearch.value.toLowerCase() == pupilName7.innerHTML.toLowerCase()){
+        showAddress7();
+    }
+
+    if(inputSearch.value.toLowerCase() == pupilName8.innerHTML.toLowerCase()){
+        showAddress8();
+    }
+
+    else{
+        alert('Ma`lumot no`to`g`ri kiritildi!')
+    }
 }
 
+
+
 const showAddress1 = () => {
+    alert('Toshkent viloyati, Angren shahar, Uzumzor ko`chasi 13-uy');
+}
+
+const showMe1 = () => {
     alert('Toshkent viloyati, Angren shahar, Uzumzor ko`chasi 13-uy');
 }
 
@@ -61,3 +96,6 @@ const showAddress7 = () => {
 const showAddress8 = () => {
     alert('Toshkent viloyati, Keles shahar, Toshkent ko`chasi 321-uy');
 }
+
+
+

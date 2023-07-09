@@ -73,3 +73,4 @@ const clickTeachers = () => {
     // console.log('working');
     tableTeachers.style.border = 'none';
 }
+
